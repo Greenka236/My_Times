@@ -52,6 +52,10 @@
   flex-flow: column wrap;
   }
 
+.column-medium .story h2 {
+  margin-top: 0px;
+}
+
 .column-small {
   display: flex;
   width: 240px;
@@ -61,11 +65,14 @@
 
 .image-content {
   height: 300px;
+  justify-content: center;
+  align-items: center;
   }
 
 .lead-story .image-content {
   display: flex;
   background-image: url("../Images/party.png");
+  padding-left: 20px;
   }
 
 .image-content span {
@@ -131,4 +138,34 @@
   font-family: Verdana;
   font-size: 12px;
   color: DimGray;
+}
+
+.footer {
+  height: 325px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.my-times {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 30px;
+  border-right: 1px solid white;
+}
+
+.footer-nav a{
+  padding: 10px;
+  color: black;
+}
+
+.footer-copyright {
+  padding: 20px;
 }
